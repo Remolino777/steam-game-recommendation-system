@@ -1,2 +1,4 @@
 .venv
-
+Dataset/australian_user_reviews.json
+Dataset/australian_users_items.json
+Dataset/output_steam_games.json
