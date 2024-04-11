@@ -2,5 +2,6 @@
 Dataset/australian_user_reviews.json
 Dataset/australian_users_items.json
 Dataset/output_steam_games.json
-Dataset\Procesado\id_games.csv
-Dataset\Procesado\user_id_profile.csv
+Dataset/Procesado/id_games.csv
+Dataset/Procesado/user_id_profile.csv
+Dataset/Procesado/user_reviews.csv
