@@ -4,4 +4,4 @@ app = fastAPI()
 
 @app.get("/")
 def inicio_mi_servidor():
-    return ("Hola mundo")
+    return ("Hola")
