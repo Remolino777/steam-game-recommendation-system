@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu API</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f3edd7; /* Color gris */
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      text-align: center;
+    }
+    input[type="text"] {
+      padding: 10px;
+      width: 70%;
+    }
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #f3f3f3;
+      text-align: center;
+      padding: 10px 0;
+    }
+    form {
+        margin-bottom: 40px; /* Ajusta este valor según el espacio deseado */
+      }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>- STEAM GAMES DATA ANALYSIS -</h1>
+    <div class="header">
+    
+    
+        <form action="#" method="post" style="width: 100%; display: inline-block;">
+            <label style="width: 30%; display: inline-block; text-align: left;">developer  :</label>
+            <input type="text" name="search" placeholder="GET/..." style="width: 50%;">
+            <input type="submit" style="width: 10%;" value="Go">
+          </form>
+
+    
+    <form action="#" method="post" style="width: 100%; display: inline-block;">
+        <label style="width: 30%; display: inline-block; text-align: left;">user_data  :</label>
+        <input type="text" name="search" placeholder="GET/..." style="width: 50%;">
+        <input type="submit" style="width: 10%;" value="Go">
+      </form>
+
+    
+    <form action="#" method="post" style="width: 100%; display: inline-block;">
+        <label style="width: 30%; display: inline-block; text-align: left;">best_developer  :</label>
+        <input type="text" name="search" placeholder="GET/..." style="width: 50%;">
+        <input type="submit" style="width: 10%;" value="Go">
+      </form>
+
+    
+    <form action=action="https://tu-api-gateway-url.execute
+         method="post" style="width: 100%; display: inline-block; ">     <!--Este es el link que me va a conectar con mi api-->    
+        <label style="width: 30%; display: inline-block; text-align: left;">UserForGenre  :</label>
+        <input type="text" name="search" placeholder="GET/..." style="width: 50%;">
+        <input type="submit" style="width: 10%;" value="Go">
+    </form>
+
+    
+    <form action="#" method="post" style="width: 100%; display: inline-block;">       <!--UserForGenre-->  
+        <label style="width: 40%; display: inline-block; text-align: left;">developer_reviews_analysis:</label>
+        <input type="text" name="search" placeholder="GET/..." style="width: 40%;">
+        <input type="submit" style="width: 10%;" value="Go">
+    </form>
+
+    <div  id="respuesta" style="width: 100%; background-color: white; padding: 10px; margin-top: 20px; height: 300px;">  
+        <label style="color: grey;">Respuesta :</label>
+
+    </div>
+
+  </div>
+  <footer>
+   <!-- <img src="tren.jpg" alt="Imagen de tren"> -->
+  </footer>
+</body>
+</html>
