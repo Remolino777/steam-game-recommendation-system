@@ -87,8 +87,11 @@
         <input type="submit" style="width: 10%;" value="Go">
     </form>
 
+    <button onclick="sendRequest()">test</button>
+
     <div  id="respuesta" style="width: 100%; background-color: white; padding: 10px; margin-top: 20px; height: 300px;">  
         <label style="color: grey;">Respuesta :</label>
+      
 
     </div>
 
@@ -96,5 +99,40 @@
   <footer>
    <!-- <img src="tren.jpg" alt="Imagen de tren"> -->
   </footer>
+
+  <script>
+    function sendRequest() {
+        // URL de tu API Gateway
+        var apiEndpoint = 'https://51le9noz4b.execute-api.us-east-1.amazonaws.com/dev';
+
+        // Opciones de la solicitud
+        var requestOptions = {
+            method: 'GET', // Cambia a 'POST', 'PUT', etc., según lo necesario
+            headers: {
+                'Content-Type': 'application/json', // Tipo de contenido esperado por la API Gateway
+                // Agrega cualquier otro encabezado necesario, como autorización, etc.
+            },
+            // Puedes incluir datos en el cuerpo de la solicitud si es necesario
+            // body: JSON.stringify({ key: 'value' })
+        };
+
+        // Hacer la solicitud
+        fetch(apiEndpoint, requestOptions)
+            .then(response => response.json())
+            .then(data => {
+                // Manejar la respuesta de la API aquí
+                console.log('Respuesta de la API:', data);
+                alert('Respuesta de la API: ' + JSON.stringify(data));
+            })
+            .catch(error => {
+                // Manejar errores
+                console.error('Error al enviar la solicitud:', error);
+                alert('Error al enviar la solicitud: ' + error.message);
+            });
+    }
+</script>
+
+
+
 </body>
 </html>
