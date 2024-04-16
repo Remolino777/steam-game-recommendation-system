@@ -9,6 +9,6 @@ Dataset/Procesado/items_reviews.csv
 Dataset/Procesado/sentiment.csv
 Dataset/Procesado/developer_db.csv
 Dataset/Procesado/dev_db.csv
-Dataset/Procesado/user_db.parquet
-Dataset/Procesado/dev_db.parquet
+#Dataset/Procesado/user_db.parquet
+#Dataset/Procesado/dev_db.parquet
 versions/
