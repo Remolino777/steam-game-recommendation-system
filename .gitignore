@@ -11,4 +11,5 @@ Dataset/Procesado/developer_db.csv
 Dataset/Procesado/dev_db.csv
 #Dataset/Procesado/user_db.parquet
 #Dataset/Procesado/dev_db.parquet
+AWS_lambad_proceso.ipynb
 versions/
