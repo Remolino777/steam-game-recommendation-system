@@ -1,7 +1,7 @@
 Steam User and Developer Data Analysis API
 Este repositorio contiene una API que proporciona funcionalidades para analizar datos de usuarios y desarrolladoras de juegos en la plataforma Steam. La API ofrece varios endpoints que permiten acceder a información relevante sobre los juegos, usuarios y desarrolladoras en Steam.
 
-![Api architecture Steam](https://github.com/Remolino777/steam-game-recommendation-system/assets/39866683/5eb46a29-bc31-45fd-9719-50138846ddfc)
+![Api architecture Steam](Api_architecture_Steam.png)
 
 Endpoints Disponibles
 1. developer/
